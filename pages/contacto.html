@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <title>Contacto</title>
+  </head>
+  <body>
+
+    <header class="header">
+        <div class="header__logo">
+          <img class="header__img" src="../img/logo.png">
+          <h1 class="header__title">SERVIPC</h1>
+        </div>
+        <i id="btn-menu" class="fa-solid fa-bars"></i>
+        
+      </header>
+      <nav class="nav">
+        <ul class="nav__menu">
+          <li class="nav__item"><a href="../index.html">INICIO</a><i id="btn-close" class="fa-solid fa-xmark"></i></li>
+          <li class="nav__item"><a href="soporte.html">SOPORTE</a></li>
+          <li class="nav__item"><a href="tv.html">TV</a></li>
+          <li class="nav__item"><a href="moviles.html">MÓVILES</a></li>
+          <li class="nav__item"><a href="juegos.html">JUEGOS</a></li>
+          <li class="nav__item"><a href="componentes.html">COMPONENTES</a></li>
+          <li class="nav__item"><a href="periférico.html">PERIFERICOS</a></li>
+          <li class="nav__item"><a href="ofertas.html">OFERTAS</a></li>
+        </ul>
+        
+      </nav>
+    
+    <div class="main">
+        <div class="content-map">
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1656.2059355956467!2d-70.74664401354985!3d-33.87904490724336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d6fb74bdf87b%3A0x5803b39ee194ac9d!2sServiPC!5e0!3m2!1ses!2spe!4v1662087823077!5m2!1ses!2spe" height="698px" width="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="form">
+            <div class="content-item">
+              <h1>CONTACTENOS</h1>
+              <div class="form__item">
+                <h2>NOMBRE</h2>
+                <input type="text" placeholder="Ingreses sus nombres" />
+              </div>
+              <div class="form__item">
+                <h2>APELLIDOS</h2>
+                <input type="text" placeholder="Ingrese sus apellidos" />
+              </div>
+              <div class="form__item">
+                <h2>NÚMERO</h2>
+                <input
+                  type="text"
+                  pattern="\d*"
+                  maxlength="9"
+                  placeholder="Ingrese su número"
+                />
+              </div>
+              <div class="form__item">
+                <h2>DIRECCIÓN</h2>
+                <input type="text" placeholder="Ingrese su dirección" />
+              </div>
+              <div class="form__item">
+                <h2>FECHA</h2>
+                <input type="date" />
+              </div>
+              <textarea class="form__comentario" cols="30" rows="5"></textarea>
+            </div>
+            
+            <div class="form__thank" hidden>
+              <h2>aa</h2>
+            </div>
+            <button id="btn-submit" class="form__submit">Enviar</button>
+    </div>
+
+      
+    </div>
+    <footer class="footer">
+        <ul class="footer__menu">
+            <li class="footer__item"><a href="contacto.html">Contactos</a></li>
+            <li class="footer__item"><a href="#">Redes</a></li>
+            <li class="footer__item"><a href="#">Locales</a></li>
+            <li class="footer__item"><a href="#">Garantias</a></li>
+            <li class="footer__item"><a href="#">Correos</a></li>
+            <li class="footer__item"><a href="#">Preguntas Frecuentes</a></li>
+        </ul>
+    </footer>
+    <script src="../js/contacto.js"></script>
+  </body>
+</html>
